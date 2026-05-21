@@ -1,0 +1,34 @@
+{
+    "name": "Racing Game Final",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-arcade-image-transform": "github:robo-technical-group/pxt-arcade-image-transform#v1.0.2",
+        "darts": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.6.7",
+        "tag": "v0.6.7",
+        "commits": "https://github.com/Microsoft/pxt-arcade/commits/a948f11212e437942eaa24374d39d4ef5b3e16f9",
+        "target": "4.0.14",
+        "pxt": "5.4.23",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
